@@ -1,0 +1,7 @@
+I want to create a filtering system like the one below:
+
+http://www.autozone.com/searchresult?searchText=windshield%20wiper&vehicleSetFromSearch=false&keywords=windshield%20wiper
+
+Inventory will need to be done through php and MySQL, but the filtering system can get done through jquery/html/css.
+
+I'm currently working on a similiar filtering system for my work. I plan to complete it by next week.
