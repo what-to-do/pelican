@@ -1,0 +1,32 @@
+Amazon payments:
+Domestic processing fee:  2.9%
+Authorization fee: $0.30
+Cross-border processing fee: 3.9%
+Disputed chargeback fee: $20
+Includes Amazon security, fraud protection
+Says it has a better conversion rate because of Amazon ecosystem
+
+Square payments:
+swiped magstripe cards: 2.75%
+chip cards: 2.75%
+card on file transaction: 3.5% + $0.15
+keyed in cards: 3.5% + $0.15
+virtual terminal payment: 3.5% + $0.15
+NFC payment: $2.75%
+free magstripe reader
+$49 for chip and NFC reader
+
+Paypal
+transaction: 2.9% + $0.30 per transaction
+International: 3.9% + fixed fee (currency dependent)
+PayPal card reader:  2.7% or 3.5% + $0.15 for manual xns
+chargeback: $20
+
+Intuit GoPayments
+Free card reader
+compatible with Quickbooks
+$0 monthly, 2.4% swipe, 3.4% keyed, $0.25 xn fee, or 
+$19.95 monthly, 1.6% swipe, 3.2% keyed, $0.25 xn fee
+
+EMS
+unable to find adequate fee information without filling out contact information:
