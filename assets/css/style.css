@@ -1,0 +1,12 @@
+.about_me {
+	display: none;
+}
+
+.bird_about_me {
+	float: left;
+	padding-right: 10px;
+};
+
+.about_me_text {
+	float: right;
+}
