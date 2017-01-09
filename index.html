@@ -4,33 +4,79 @@
 	<title></title>
 </head>
 <body>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Bootstrap core CSS -->
+  <link href="MDBPro420/css/bootstrap.min.css" rel="stylesheet">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Material Design Bootstrap -->
+  <link href="MDBPro420/css/mdb.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Pelican</a>
+  <script type="text/javascript" ></script>
+
+
+<!--Navbar-->
+<nav class="navbar navbar-dark bg-primary">
+
+    <!-- Collapse button-->
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2">
+        <i class="fa fa-bars"></i>
+    </button>
+
+    <div class="container">
+
+        <!--Collapse content-->
+        <div class="collapse navbar-toggleable-xs" id="collapseEx2">
+            <!--Navbar Brand-->
+            <a class="navbar-brand pelican_logo">Pelican</a>
+            <!--Links-->
+            <button type="button" class="about btn btn-primary"> About</button>
+            <button type="button" class="contact btn btn-primary"> Contact</button> 
+            <button type="button" class="buy btn btn-primary">Buy</button>
+        </div>
+        <!--/.Collapse content-->
+
     </div>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Buy <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-  </div><!-- /.container-fluid -->
 </nav>
+<!--/.Navbar-->
+
 
 <div class="container">	
-	<div class="body">
-		
-	</div>
+	<div class="buy">   
+  </div>
+
+  <div class="contact">   
+  </div>
+
+<!--/ABOUT ME: WILL NOT DISPLAY UNLESS BUTTON IS SELECTED-->
+<div class="about_me">
+  <img class="bird_about_me" src="assets/images/pelican.jpg">
+    <p class="about_me_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis tellus ut dui lobortis, ac interdum nisl facilisis. Nulla lobortis commodo dolor nec hendrerit. Cras vel erat mattis, bibendum elit at, eleifend odio. Cras consectetur ac dolor sed pulvinar. Nam ante urna, finibus et cursus in, euismod vitae velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin nec est a justo viverra sodales. Sed sit amet nisi malesuada, pharetra neque fermentum, lobortis turpis. Duis in erat ac urna tincidunt venenatis. Mauris facilisis porttitor odio. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br>
+    Aenean a tincidunt eros. Vivamus iaculis nunc a fringilla auctor. Maecenas non ex lorem. Aenean malesuada dignissim tellus tristique aliquam. Nam id rutrum nibh, quis dapibus ante. In at metus non magna accumsan condimentum imperdiet eget velit. In lacinia diam id orci sodales sagittis. In posuere sapien sit amet turpis varius dapibus. </p>
+  </div>
 </div>
+<!--END OF ABOUT ME-->
+
+
+  <!-- SCRIPTS -->
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="MDBPro420/js/jquery-3.1.1.min.js"></script>
+
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="MDBPro420/js/tether.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="MDBPro420/js/bootstrap.min.js"></script>
+
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="MDBPro420/js/mdb.min.js"></script>
+
+  <!-- Personal JS code -->
+  <script type="text/javascript" src="assets/js/app.js"></script>
 
 </body>
 </html>

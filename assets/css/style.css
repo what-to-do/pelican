@@ -1,0 +1,24 @@
+button {
+	float: right;
+	color:transparent !important;
+	text-shadow:none !important;
+	border:none !important;
+	box-shadow:none !important;
+}
+
+.pelican_logo {
+	font-size: 32px;
+}
+
+.about_me {
+	padding-top: 15px;
+}
+
+.bird_about_me {
+	float: left;
+	padding-right: 10px;
+};
+
+.about_me_text {
+	float: right;
+}
