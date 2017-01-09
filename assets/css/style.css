@@ -1,3 +1,15 @@
+button {
+	float: right;
+	color:transparent !important;
+	text-shadow:none !important;
+	border:none !important;
+	box-shadow:none !important;
+}
+
+.pelican_logo {
+	font-size: 32px;
+}
+
 .about_me {
 	padding-top: 15px;
 }
